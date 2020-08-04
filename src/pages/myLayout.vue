@@ -7,7 +7,7 @@
         <q-toolbar-title>
           <q-avatar>
             <img src="https://cdn.quasar.dev/logo/svg/quasar-logo.svg" />
-          </q-avatar>Title
+          </q-avatar>同志们好！同志们辛苦了！
         </q-toolbar-title>
 
         <q-btn dense flat round icon="menu" @click="right = !right" />
