@@ -47,7 +47,7 @@
 <script>
 export default {
   name: 'myLayout',
-  data() {
+  data () {
     return {
       left: false,
       right: false
