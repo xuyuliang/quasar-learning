@@ -1,11 +1,16 @@
 <template>
   <div>
     <div class="row">
-      <q-breadcrumbs>
-        <q-breadcrumbs-el label="home" icon="home" to="/"></q-breadcrumbs-el>
-        <q-breadcrumbs-el label="mypages" icon="sports_rugby" to="/mypage"></q-breadcrumbs-el>
-        <q-breadcrumbs-el label="layout" icon="sports_football" to="/layout"></q-breadcrumbs-el>
-      </q-breadcrumbs>
+      <div class="col-12">
+        <q-breadcrumbs align="right">
+          <template v-slot:separator>
+            <q-icon size="1.5em" name="chevron_right" color="primary"></q-icon>
+          </template>
+          <q-breadcrumbs-el label="home" icon="home" to="/"></q-breadcrumbs-el>
+          <q-breadcrumbs-el label="mypages" icon="sports_rugby" to="/mypage"></q-breadcrumbs-el>
+          <q-breadcrumbs-el label="layout" icon="sports_football" to="/layout"></q-breadcrumbs-el>
+        </q-breadcrumbs>
+      </div>
     </div>
     <div class="row">
       <div class="col-12">
