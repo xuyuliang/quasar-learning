@@ -6,10 +6,17 @@ const routes = [
   //     { path: '', component: () => import('pages/Index.vue') }
   //   ]
   // },
-
   {
     path: '/',
-    // component: () => import('pages/mypage.vue')
+    component: () => import('pages/coms0806.vue')
+  },
+  {
+    path: '/mypage',
+    component: () => import('pages/mypage.vue')
+  },
+  // 布局
+  {
+    path: '/layout',
     component: () => import('pages/myLayout.vue')
   },
   {
