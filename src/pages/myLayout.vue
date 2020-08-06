@@ -14,7 +14,7 @@
       </q-toolbar>
 
       <q-tabs align="left">
-        <q-route-tab to="/page1" label="Page One" />
+        <q-route-tab to="/ava" label="avatar和一些其他" />
         <q-route-tab to="/page2" label="Page Two" />
         <q-route-tab to="/page3" label="Page Three" />
       </q-tabs>
@@ -37,7 +37,7 @@
         <q-toolbar-title>
           <q-avatar>
             <img src="https://cdn.quasar.dev/logo/svg/quasar-logo.svg" />
-          </q-avatar>Title
+          </q-avatar>这是尾巴
         </q-toolbar-title>
       </q-toolbar>
     </q-footer>
