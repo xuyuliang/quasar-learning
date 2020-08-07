@@ -67,15 +67,33 @@
           </template>
         </q-banner>
       </div>
-      <div class="col bg-yellow-2">this is 3 div</div>
-      <div class="col bg-teal-4">this is 2nd div</div>
+      <div class="col bg-yellow-2">
+        this is 3 div
+        <q-btn color="deep-orange" text-color="white" :label="ast" @click="myClick"></q-btn>
+        <p>this is {{ast}}</p>
+      </div>
+      <div class="col bg-teal-4">this is 2nd iv</div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'mypage'
+  name: 'mypage',
+  data: function () {
+    return {
+      a: 0,
+      ast: 'ast'
+    }
+  },
+  methods: {
+    myClick: function () {
+      this.a++
+      console.log(this.a)
+      this.ast = 'orange ' + this.a
+    }
+  }
+
 }
 </script>
 
