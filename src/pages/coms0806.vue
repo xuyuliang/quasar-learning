@@ -72,25 +72,38 @@
         <q-btn color="deep-orange" text-color="white" :label="ast" @click="myClick"></q-btn>
         <p>this is {{ast}}</p>
       </div>
-      <div class="col bg-teal-4">this is 2nd iv</div>
+      <div class="col bg-teal-4">
+        this is 2nd iv `${ast}`
+        <q-btn
+          v-for="size in sizes"
+          :key="`btn_size_sq_${size}`"
+          color="primary"
+          :size="size"
+          :label="`${size}`"
+        ></q-btn>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'mypage',
+  name: 'pg0806',
   data: function () {
     return {
       a: 0,
-      ast: 'ast'
+      ast: 'ast',
+      sizes: ['xs', 'sm', 'md', 'lg', 'xl']
     }
   },
   methods: {
     myClick: function () {
       this.a++
       console.log(this.a)
-      this.ast = 'orange ' + this.a
+      let b = this.a + 1
+      b++
+      console.log(b)
+      this.ast = 'orange ' + this.a + ':' + b
     }
   }
 
