@@ -8,6 +8,10 @@ const routes = [
   // },
   {
     path: '/',
+    component: () => import('pages/pg0810.vue')
+  },
+  {
+    path: '/pg0808',
     component: () => import('pages/pg0808.vue')
   },
   {
