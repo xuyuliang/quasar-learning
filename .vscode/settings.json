@@ -1,5 +1,6 @@
 {
   "vetur.validation.template": false,
+<<<<<<< HEAD
   "vetur.format.enable": true,
   "eslint.validate": [
     "javascript",
@@ -9,3 +10,10 @@
   ],
   "vetur.experimental.templateInterpolationService": true
 }
+=======
+  "vetur.format.enable": false,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "vue"],
+  
+  "vetur.experimental.templateInterpolationService": true
+}
+>>>>>>> a80907b... bad

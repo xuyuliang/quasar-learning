@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Quasar App (my-quasar-test)
+=======
+# Quasar App (new-quasar-test)
+>>>>>>> a80907b... bad
 
 A Quasar Framework app
 
