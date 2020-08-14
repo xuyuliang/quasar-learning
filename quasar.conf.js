@@ -182,11 +182,7 @@ module.exports = function (/* ctx */) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-<<<<<<< HEAD
-        appId: 'my-quasar-test'
-=======
         appId: 'new-quasar-test'
->>>>>>> a80907b... bad
       },
 
       // More info: https://quasar.dev/quasar-cli/developing-electron-apps/node-integration

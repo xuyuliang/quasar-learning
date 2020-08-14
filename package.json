@@ -1,17 +1,9 @@
 {
-<<<<<<< HEAD
-  "name": "my-quasar-test",
-  "version": "0.0.1",
-  "description": "A Quasar Framework app",
-  "productName": "Quasar App",
-  "author": "xuyuliang",
-=======
   "name": "new-quasar-test",
   "version": "0.0.1",
   "description": "A Quasar Framework app",
   "productName": "Quasar App",
   "author": "xuyuliang <xuyuliang@gmail.com>",
->>>>>>> a80907b... bad
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
@@ -35,17 +27,6 @@
     "eslint-plugin-vue": "^6.1.2"
   },
   "browserslist": [
-<<<<<<< HEAD
-    "last 1 Chrome versions",
-    "last 1 Firefox versions",
-    "last 1 Edge versions",
-    "last 1 Safari versions",
-    "last 1 Android versions",
-    "last 1 ChromeAndroid versions",
-    "last 1 FirefoxAndroid versions",
-    "last 1 iOS versions",
-    "last 1 Opera versions"
-=======
     "last 10 Chrome versions",
     "last 10 Firefox versions",
     "last 4 Edge versions",
@@ -55,7 +36,6 @@
     "last 8 FirefoxAndroid versions",
     "last 10 iOS versions",
     "last 5 Opera versions"
->>>>>>> a80907b... bad
   ],
   "engines": {
     "node": ">= 10.18.1",

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const routes = [
   // {
   //   path: '/',
@@ -9,6 +8,10 @@ const routes = [
   // },
   {
     path: '/',
+    component: () => import('pages/test.vue')
+  },
+  {
+    path: '/pg0811',
     component: () => import('pages/pg0811.vue')
   },
   {
@@ -36,18 +39,6 @@ const routes = [
     path: '/ava',
     component: () => import('pages/avatar-and-others.vue')
   },
-=======
-
-const routes = [
-  {
-    path: '/',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [
-      { path: '', component: () => import('pages/Index.vue') }
-    ]
-  },
-
->>>>>>> a80907b... bad
   // Always leave this as last one,
   // but you can also remove it
   {
